@@ -1,0 +1,28 @@
+menu {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-left: 0;
+    padding-top: 20px;
+}
+.menu li {
+    display: inline;
+    background-color: #ffffff;
+    font-size: 18px;
+    color: #007bff;
+    padding: 10px;
+    border: 1px solid #e2e6e9;
+    border-radius: 8px;
+
+}
+.menu a{
+    text-decoration: none;
+    color: #037eff;
+}
+li:hover{
+    background-color: #f2f2f2;
+    border: 1px solid rgba(0,123,255,.5);
+}
+a:hover{
+    text-decoration:underline;
+    color: #0062cc;
+}
